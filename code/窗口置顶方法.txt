@@ -1,0 +1,4 @@
+通用--声明中添加以下语句
+Private Declare Function SetWindowPos Lib "user32" (ByVal HWnd As Long, ByVal hWndInsertAfter As Long, ByVal X As Long, ByVal Y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags As Long) As Long
+Form_Load中添加以下语句
+SetWindowPos Me.HWnd, -1, 0, 0, 0, 0, 2 Or 1

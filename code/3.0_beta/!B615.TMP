@@ -1,0 +1,25 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "老师控制解除器3.0-by b站、帥の智叟L"
+   ClientHeight    =   3120
+   ClientLeft      =   120
+   ClientTop       =   450
+   ClientWidth     =   6675
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   3120
+   ScaleWidth      =   6675
+   StartUpPosition =   3  '窗口缺省
+   Begin VB.CommandButton win_jiyu 
+      Caption         =   "小窗模式の极域"
+      Height          =   615
+      Left            =   4800
+      TabIndex        =   6
+      Top             =   1200
+      Width           =   1575
+   End
+   Begin VB.Timer Timer1 
+      Interval        =   1
+      Left            =   600
+      Top             =   1080
+   End
+   Begin
