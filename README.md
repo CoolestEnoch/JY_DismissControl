@@ -4,6 +4,8 @@
 
 **没有加壳，报毒正常**
 
+[最新版下载](https://github.com/CoolestEnoch/JY_DismissControl/releases/latest)
+
 <br/>
 
 仅适配了2015豪华版且安装目录在D盘Program Files文件夹下，其他版本自测，或者改源码重新编译
